@@ -1,6 +1,6 @@
 {
   "name": "rollup-plugin-rehype",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rollup plugin for processing HTML files using Rehype",
   "main": "index.js",
   "type": "module",
@@ -26,11 +26,11 @@
   "devDependencies": {
     "@types/jest": "^27.0.3",
     "jest": "^27.4.4",
+    "rehype-format": "^4.0.1",
     "rehype-preset-minify": "^6.0.0"
   },
   "dependencies": {
     "@rollup/pluginutils": "^4.1.1",
-    "rehype-format": "^4.0.1",
     "rehype-parse": "^8.0.3",
     "rehype-stringify": "^9.0.2",
     "unified": "^10.1.1",
