@@ -1,0 +1,42 @@
+{
+  "name": "rollup-plugin-rehype",
+  "version": "1.0.0",
+  "description": "Rollup plugin for processing HTML files using Rehype",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keplersj/rollup-plugin-rehype.git"
+  },
+  "keywords": [
+    "rollup-plugin",
+    "rehype",
+    "unified",
+    "html"
+  ],
+  "author": "Kepler Sticka-Jones <kepler@stickajones.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/keplersj/rollup-plugin-rehype/issues"
+  },
+  "homepage": "https://github.com/keplersj/rollup-plugin-rehype#readme",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.4",
+    "rehype-preset-minify": "^6.0.0"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.1",
+    "rehype-format": "^4.0.1",
+    "rehype-parse": "^8.0.3",
+    "rehype-stringify": "^9.0.2",
+    "unified": "^10.1.1",
+    "vfile": "^5.2.0"
+  },
+  "jest": {
+    "collectCoverage": true
+  }
+}
